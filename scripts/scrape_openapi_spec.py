@@ -38,7 +38,7 @@ def extract_openapi_spec_from_html(html_content: str) -> dict | None:
             # Extract the spec from the __redoc_state object
             if "spec" in redoc_state and "data" in redoc_state["spec"]:
                 return redoc_state["spec"]["data"]
-            elif "openapi" in redoc_state or "swagger" in redoc_state:
+            if "openapi" in redoc_state or "swagger" in redoc_state:
                 return redoc_state
 
         except json.JSONDecodeError as e:
