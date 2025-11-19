@@ -1,0 +1,502 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ordered_unit_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ordered_unit_price",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ordered_unit_price",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "quantity"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "product"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "notes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_sample"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_multiplier"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_medical_line_item"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_packed"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "packed_at"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "packed_by"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_of_measure"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "position"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "bulk_units"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "on_sale"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_backorder"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "batch"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "package_tags"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "frozen_data"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "wholesale_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "batch": {
+        "description": "Batch that should be displayed in invoice.",
+        "title": "Batch",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "bulk_units": {
+        "description": "The number of units of bulk available.  quantity / unit_multiplier",
+        "title": "Bulk units",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "frozen_data": {
+        "title": "Frozen data",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "id of the line item",
+        "title": "Id",
+        "type": "integer"
+      },
+      "is_backorder": {
+        "description": "Is this line item backordered?",
+        "title": "Is backorder",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_medical_line_item": {
+        "description": "Is this a medical line item?",
+        "title": "Is medical line item",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_packed": {
+        "description": "Is the line-item packed?",
+        "title": "Is packed",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_sample": {
+        "description": "Is this line item a sample?",
+        "title": "Is sample",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "notes": {
+        "description": "Notes for this specific ordered product",
+        "title": "Notes",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "on_sale": {
+        "description": "Is this line item on sale?",
+        "title": "On sale",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "order": {
+        "description": "The number of the order this line item is attached to.  `number` or `order_number` on the order object.",
+        "format": "uuid",
+        "title": "Order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order_id": {
+        "title": "Order id",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ordered_unit_price": {
+        "description": "Price at the time the order was placed",
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "package_tags": {
+        "description": "Tags associated to line items via attached packages.",
+        "title": "Package tags",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "packed_at": {
+        "description": "Date and time this line-item was packed",
+        "format": "date-time",
+        "title": "Packed at",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "packed_by": {
+        "description": "The CompanyStaff user that packed this product",
+        "title": "CompanyStaff user",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "position": {
+        "description": "Position for this line item in the displayed list of line items on the order",
+        "title": "Position",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "product": {
+        "description": "id for the product",
+        "title": "Product",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "quantity": {
+        "description": "Number of units ordered",
+        "format": "decimal",
+        "title": "Quantity",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sale_price": {
+        "description": "Alternative sale price",
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "unit_multiplier": {
+        "description": "How many individual units are sold when compared to the assigned unit of measure",
+        "title": "Unit multiplier",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "unit_of_measure": {
+        "description": "Units this product is measured in",
+        "title": "Unit of measure",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "wholesale_price": {
+        "description": "Wholesale Price",
+        "format": "decimal",
+        "title": "Wholesale price",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "line_items",
+  "tap_stream_id": "line_items"
+}

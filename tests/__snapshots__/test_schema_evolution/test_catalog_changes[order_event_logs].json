@@ -1,0 +1,227 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "author_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "by"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "event_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "timestamp"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "changed_fields"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "source"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "source_detail"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "author_name": {
+        "title": "Author name",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "by": {
+        "pattern": "^[\\w.@+-]+$",
+        "title": "By",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "changed_fields": {
+        "title": "Changed fields",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "created_on": {
+        "format": "date-time",
+        "title": "Created on",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "maxLength": 255,
+        "title": "Description",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "event_type": {
+        "title": "Event type",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "title": "ID",
+        "type": "integer"
+      },
+      "modified": {
+        "format": "date-time",
+        "title": "Modified",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order": {
+        "format": "uuid",
+        "title": "Order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source": {
+        "description": "Where the change to the Order was made",
+        "title": "Event Source",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source_detail": {
+        "description": "Where the change to the Order was made.",
+        "maxLength": 200,
+        "title": "Event Source Desc.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "timestamp": {
+        "format": "date-time",
+        "title": "Timestamp",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "event_type"
+    ],
+    "type": "object"
+  },
+  "stream": "order_event_logs",
+  "tap_stream_id": "order_event_logs"
+}

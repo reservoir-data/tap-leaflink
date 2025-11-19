@@ -1,0 +1,287 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "owner"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "first_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "last_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "email"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "secondary_email"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "role"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "phone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "phone_extension"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "secondary_phone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "secondary_phone_extension"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delete"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "created_on": {
+        "format": "date-time",
+        "title": "Created on",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "delete": {
+        "description": "Is this Contact marked as deleted?",
+        "title": "Contact deleted",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "description": {
+        "description": "An overview of the contact",
+        "maxLength": 1500,
+        "title": "Description",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "email": {
+        "format": "email",
+        "maxLength": 255,
+        "title": "Email address",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "first_name": {
+        "maxLength": 30,
+        "minLength": 1,
+        "title": "First name",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "title": "ID",
+        "type": "integer"
+      },
+      "last_name": {
+        "maxLength": 30,
+        "title": "Last name",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "modified": {
+        "format": "date-time",
+        "title": "Modified",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "owner": {
+        "title": "Owner",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "phone": {
+        "description": "Phone Number of Brand",
+        "maxLength": 400,
+        "title": "Phone",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "phone_extension": {
+        "maxLength": 20,
+        "title": "Phone Extension",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "role": {
+        "description": "Position or role at company",
+        "maxLength": 400,
+        "title": "Position",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "secondary_email": {
+        "format": "email",
+        "maxLength": 255,
+        "title": "Secondary email address",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "secondary_phone": {
+        "description": "Secondary Phone Number of Brand",
+        "maxLength": 400,
+        "title": "Secondary Phone",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "secondary_phone_extension": {
+        "maxLength": 20,
+        "title": "Secondary Phone Extension",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "owner",
+      "first_name"
+    ],
+    "type": "object"
+  },
+  "stream": "contacts",
+  "tap_stream_id": "contacts"
+}

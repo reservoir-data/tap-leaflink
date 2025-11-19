@@ -1,0 +1,1301 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "short_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "status"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "zip"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "email"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "phone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer",
+        "properties",
+        "licenses"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "zip"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "phone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller",
+        "properties",
+        "licenses"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "source"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_by"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_by",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_by",
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_by",
+        "properties",
+        "username"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_by",
+        "properties",
+        "email"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "last_edited_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "line_items"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "subtotal"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_charge"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "discount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "tax"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "total"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to",
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payable_to",
+        "properties",
+        "zip"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_term"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_methods"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_due_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ship_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_details"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_delivered"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivered_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "notes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sales_reps"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ],
+        "valid-replication-keys": [
+          "modified"
+        ]
+      }
+    }
+  ],
+  "replication_key": "modified",
+  "replication_method": "INCREMENTAL",
+  "schema": {
+    "properties": {
+      "buyer": {
+        "description": "Company on the buy side of the order",
+        "properties": {
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "email": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "licenses": {
+            "items": {
+              "properties": {
+                "classification": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "number": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "phone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zip": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "created_by": {
+        "description": "User who created the order.  If BGO, full staff member details.  If SGO, the staff member's name.",
+        "properties": {
+          "email": {
+            "description": "null if SGO",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "description": "null if SGO",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "username": {
+            "description": "null if SGO",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "created_on": {
+        "description": "Date and time that the order was created",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "currency": {
+        "description": "Currency used in the order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "delivered_date": {
+        "description": "Date and time the order was delivered",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "delivery_address": {
+        "description": "Read only delivery address as provided during order creation.",
+        "properties": {
+          "address": {
+            "title": "Address",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "title": "City",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "description": "State abbreviation",
+            "title": "State",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "title": "Unit Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zipcode": {
+            "title": "Zip Code",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "title": "Delivery Address",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "discount": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "Unique id generated by LeafLink",
+        "format": "uuid",
+        "type": "string"
+      },
+      "is_delivered": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "last_edited_on": {
+        "description": "Date and time that the order was last edited",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "line_items": {
+        "items": {
+          "properties": {
+            "price": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "product": {
+              "properties": {
+                "base_unit_of_measure": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "base_units_per_unit": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "brand": {
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": [
+                    "objet",
+                    "null"
+                  ]
+                },
+                "category": {
+                  "properties": {
+                    "description": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "id": {
+                      "description": "Unique id generated by LeafLink.",
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "name": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "slug": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "name": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "sku": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "sold_in_multiples": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                },
+                "sub_category": {
+                  "properties": {
+                    "category": {
+                      "description": "The id for the category this subcategory belongs to.  See `id` in the product-categories response.",
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "description": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "id": {
+                      "description": "Unique id generated by LeafLink.",
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "name": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "slug": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "type": [
+                    "object",
+                    "null"
+                  ]
+                },
+                "unit_denomination": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "unit_of_measure": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "units_per_case": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "quantity": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "sold_by": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "total": {
+              "type": [
+                "number",
+                "null"
+              ]
+            }
+          },
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "notes": {
+        "description": "Additional notes added by the seller",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "payable_to": {
+        "properties": {
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zip": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "payment_due_date": {
+        "description": "Date the payment is due",
+        "format": "date",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "payment_methods": {
+        "description": "Deprecated field, please use payment_option instead<br>\nCustomer's payment method<br>\nEnum: <code>\"cash\"</code> <code>\"check\"</code> <code>\"wire\"</code> <code>\"ach\"</code>",
+        "title": "Payment Methods",
+        "type": [
+          "null"
+        ]
+      },
+      "payment_term": {
+        "description": "Deprecated field, please use payment_option instead<br>\nCustomer's payment terms<br>\nEnum: <code>\"llf\"</code> <code>\"cod\"</code> <code>\"net3\"</code> <code>\"net7\"</code>\n<code>\"net10\"</code> <code>\"net14\"</code> <code>\"net15\"</code> <code>\"net20\"</code>\n<code>\"net30\"</code> <code>\"net60\"</code> <code>\"net90\"</code> <code>\"prepay\"</code> <code>\"consign\"</code><br>\nDeprecated values (will be mapped appropriately):<br>\n(1, \"Cash\") replaced with \"cod\"<br>\n(2, \"Net 7\") replaced with \"net7\"<br>\n(3, \"Net 15\") replaced with \"net15\",<br>\n(4, \"Net 30\") replaced with \"net30\"<br>\n(5, \"Net 10\") replaced with \"net10\"<br>\n(6, \"Net 20\") replaced with \"net20<br>\n(7, \"Net 60\") replaced with \"net60\"<br>\n(8, \"Net 3\") replaced with \"net3\"<br>\n(9, \"Net 14\") replaced with \"net14\"<br>\n(10, \"Pre-Payment\") replaced with \"prepay\"<br>\n(11, \"LeafLink Financial - Net 30\") replaced with \"llf\" with payment_methods [\"ach\"]<br>\n(12, \"Consignment\") replaced with \"consign\"<br>\n(13, \"LeafLink Financial - Net 15\") replaced with \"llf\" with payment_methods [\"ach\"]<br>\n(14, \"Net 90\") replaced with \"net90\"<br>\n(15, \"Wire on Delivery\") replaced with \"cod\" with payment_methods [\"wire\"]<br>\n(20, \"COD\") replaced with \"cod\"<br>\n(21, \"LeafLink Financial\") replaced with \"llf\" with payment_methods [\"ach\"]<br>",
+        "title": "Payment Term",
+        "type": [
+          "null"
+        ]
+      },
+      "sales_reps": {
+        "description": "Names of the sales reps assigned to the order",
+        "items": {
+          "type": "string"
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "seller": {
+        "description": "Company on the sell side of the order",
+        "properties": {
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "licenses": {
+            "items": {
+              "properties": {
+                "classification": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "number": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "phone": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zip": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "ship_date": {
+        "description": "Date and time the order was shipped",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "shipping_charge": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "shipping_details": {
+        "description": "Shipping notes added by the seller",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "short_id": {
+        "description": "The _Order No._ displayed in the user interface",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "source": {
+        "description": "Describes whether this was a buyer or seller generated order `\"BGO\"` `\"SGO\"`",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "status": {
+        "description": "Order status",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "subtotal": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "tax": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "total": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "type": {
+        "description": "License type for the order",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "buyer_orders",
+  "tap_stream_id": "buyer_orders"
+}

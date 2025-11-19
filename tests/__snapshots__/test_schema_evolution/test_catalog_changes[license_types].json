@@ -1,0 +1,272 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "display_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "classification"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "require_ein"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "has_medical_line_items"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "active_for_registration"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "pre_2018_CA"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "post_2018_CA"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "state_abbr"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "active_for_registration": {
+        "description": "This license type is available for current registrations.",
+        "title": "Active for registration",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "classification": {
+        "description": "License Classification Type",
+        "maxLength": 100,
+        "minLength": 1,
+        "title": "License Classification Type",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "created_on": {
+        "format": "date-time",
+        "title": "Created on",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "description": "Description or Notes",
+        "maxLength": 5000,
+        "title": "Description",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "display_type": {
+        "description": "Type for display in the LeafLink frontend",
+        "maxLength": 100,
+        "minLength": 1,
+        "title": "Display Type",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "has_medical_line_items": {
+        "description": "This license type can sell medical line items.",
+        "title": "Has medical line items",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "id": {
+        "title": "ID",
+        "type": "integer"
+      },
+      "modified": {
+        "format": "date-time",
+        "title": "Modified",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "post_2018_CA": {
+        "description": "post-2018 CA license.",
+        "title": "Post 2018 CA",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "pre_2018_CA": {
+        "description": "pre-2018 CA license.",
+        "title": "Pre 2018 CA",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "require_ein": {
+        "description": "EIN is required to register under this license type.",
+        "title": "Require ein",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "state": {
+        "description": "id for the state [1: \"AL\", 2: \"AK\", 3: \"AZ\", 4: \"AR\", 5: \"CA\", 6: \"CO\", 7: \"CT\", 8: \"DE\", 9: \"FL\", 10: \"GA\", 11: \"HI\", 12: \"ID\", 13: \"IL\", 14: \"IN\", 15: \"IA\", 16: \"KS\", 17: \"KY\", 18: \"LA\", 19: \"ME\", 20: \"MD\", 21: \"MA\", 22: \"MI\", 23: \"MN\", 24: \"MS\", 25: \"MO\", 26: \"MT\", 27: \"NE\", 28: \"NV\", 29: \"NH\", 30: \"NJ\", 31: \"NM\", 32: \"NY\", 33: \"NC\", 34: \"ND\", 35: \"OH\", 36: \"OK\", 37: \"OR\", 38: \"PA\", 39: \"RI\", 40: \"SC\", 41: \"SD\", 42: \"TN\", 43: \"TX\", 44: \"UT\", 45: \"VT\", 46: \"VA\", 47: \"WA\", 48: \"WV\", 49: \"WI\", 50: \"WY\", 51: \"PR\", 52: \"DC\", 53: \"SK\", 54: \"ON\", 55: \"QC\", 56: \"BC\", 57: \"AB\", 58: \"MB\", 59: \"NS\", 60: \"NB\", 61: \"NL\", 62: \"PE\", 63: \"NT\", 64: \"NU\", 65: \"YT\"]",
+        "title": "State",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "state_abbr": {
+        "description": "Two letter abbreviation for the state associated with this license type.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "type": {
+        "description": "License Type",
+        "maxLength": 100,
+        "minLength": 1,
+        "title": "Type",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "type",
+      "display_type",
+      "classification",
+      "state"
+    ],
+    "type": "object"
+  },
+  "stream": "license_types",
+  "tap_stream_id": "license_types"
+}

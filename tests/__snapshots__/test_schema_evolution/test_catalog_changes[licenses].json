@@ -1,0 +1,113 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "display_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "classification"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "classification": {
+        "description": "Classification",
+        "title": "Classification",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "display_type": {
+        "description": "Display type",
+        "title": "Display type",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "id for license",
+        "title": "Id",
+        "type": "integer"
+      },
+      "number": {
+        "description": "License Number",
+        "maxLength": 100,
+        "minLength": 1,
+        "title": "License Number",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "type": {
+        "description": "Type",
+        "title": "Type",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "number"
+    ],
+    "type": "object"
+  },
+  "stream": "licenses",
+  "tap_stream_id": "licenses"
+}

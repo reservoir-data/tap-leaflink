@@ -1,0 +1,93 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "rep"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "created_on": {
+        "format": "date-time",
+        "title": "Created on",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "title": "ID",
+        "type": "integer"
+      },
+      "order": {
+        "format": "uuid",
+        "title": "Order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "rep": {
+        "title": "Rep",
+        "type": [
+          "integer",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "order",
+      "rep"
+    ],
+    "type": "object"
+  },
+  "stream": "order_sales_reps",
+  "tap_stream_id": "order_sales_reps"
+}

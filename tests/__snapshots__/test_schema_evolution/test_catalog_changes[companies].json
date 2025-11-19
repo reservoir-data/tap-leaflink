@@ -1,0 +1,349 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "announcement"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "apply_ancillary_tax"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "apply_arms_length_tax"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "batch_enabled"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "business_identifier"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "business_license_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "dba"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "has_accting"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "hide_attached_packages"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "image"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "slug"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sts_enabled"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ]
+      }
+    }
+  ],
+  "replication_method": "FULL_TABLE",
+  "schema": {
+    "properties": {
+      "address": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "announcement": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "apply_ancillary_tax": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "apply_arms_length_tax": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "batch_enabled": {
+        "description": "Is the batches feature enabled?",
+        "title": "Batch enabled",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "business_identifier": {
+        "description": "Business identifier (Only applicable to WA)",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "business_license_name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "buyer": {
+        "description": "Does the company buy on the LeafLink marketplace?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "city": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "dba": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "has_accting": {
+        "description": "Is the QuickBooks Online integration enabled?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "hide_attached_packages": {
+        "description": "Metrc integration setting",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "Unique id generated by LeafLink.",
+        "type": "integer"
+      },
+      "image": {
+        "format": "uri",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "seller": {
+        "description": "Does the company sell on the LeafLink marketplace?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "slug": {
+        "format": "slug",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "state": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sts_enabled": {
+        "description": "Is the Metrc integration enabled?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "zipcode": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "companies",
+  "tap_stream_id": "companies"
+}

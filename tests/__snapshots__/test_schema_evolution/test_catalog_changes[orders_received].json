@@ -1,0 +1,1435 @@
+{
+  "key_properties": [
+    "number"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "number"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "short_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_id_seller"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_id_buyer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ext_acct_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "user"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "buyer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "customer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "customer",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "customer",
+        "properties",
+        "display_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "customer",
+        "properties",
+        "ext_acct_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "customer",
+        "properties",
+        "delinquent"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "brand"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "status"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "manual"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "discount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "discount_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "tax_amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "tax_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "final_tax"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_charge"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_charge",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_charge",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "total"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "total",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "total",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_term"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_methods"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "selected_payment_option"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_due_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "paid"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "paid_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ship_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_details"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "notes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "internal_notes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_preferences"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sales_reps"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "classification"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_balance"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_transitions"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "has_special_requests"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_provider"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_taxes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_info"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_info",
+        "properties",
+        "acquire_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_info",
+        "properties",
+        "acquire_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_info",
+        "properties",
+        "get_acquire_type_display"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_info",
+        "properties",
+        "manifest_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_combination"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "llf_payment_method"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "credits"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "facility_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_seller_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_buyer_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "order_short_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "distributor"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_ids"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "number"
+        ],
+        "valid-replication-keys": [
+          "modified"
+        ]
+      }
+    }
+  ],
+  "replication_key": "modified",
+  "replication_method": "INCREMENTAL",
+  "schema": {
+    "properties": {
+      "available_transitions": {
+        "description": "States that the order can transition to",
+        "title": "Available transitions",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "brand": {
+        "description": "id of the brand for this order.  Only applicable if the seller has the \"Separate Orders by Brand\" setting enabled.",
+        "title": "Brand of Order",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "buyer": {
+        "description": "Company on the buy side of the order.",
+        "title": "Buyer",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "classification": {
+        "description": "Classification of the license-type associated to the order",
+        "minLength": 1,
+        "title": "Classification",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "corporate_address": {
+        "description": "Read only corporate address as provided during order creation.",
+        "properties": {
+          "address": {
+            "title": "Address",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "title": "City",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "title": "State",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "title": "Unit Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zipcode": {
+            "title": "Zip Code",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "title": "Corporate Address",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "created_on": {
+        "description": "Date and time the order was created",
+        "format": "date-time",
+        "title": "Created on",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "credits": {
+        "description": "Total dollar value of credits applied to the order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "customer": {
+        "description": "Seller's customer record for the company on the buyer side of the order",
+        "properties": {
+          "delinquent": {
+            "description": "Is this account marked delinquent?",
+            "title": "Delinquent",
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "display_name": {
+            "description": "Customer nickname if one exists, else the customer name",
+            "title": "Display name",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ext_acct_id": {
+            "description": "ID of Customer in 3rd party accouting software",
+            "maxLength": 255,
+            "title": "Accounting Service External ID",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "description": "id for the customer",
+            "title": "Id",
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "delinquent"
+        ],
+        "title": "Customer",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "delivery_address": {
+        "description": "Read only delivery address as provided during order creation.",
+        "properties": {
+          "address": {
+            "title": "Address",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "title": "City",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "title": "State",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "title": "Unit Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zipcode": {
+            "title": "Zip Code",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "title": "Delivery Address",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "delivery_info": {
+        "properties": {
+          "acquire_date": {
+            "description": "Date the Trusted Delivery Provider will either `Pick Up` or get `Drop Off` the order. Must be `null` for `In Storage` type.",
+            "format": "date-time",
+            "title": "Acquire date",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "acquire_type": {
+            "description": "1 = Drop Off; 2 = Pick Up; 3 = In Storage. 4 = Will Call",
+            "title": "Acquire type",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "get_acquire_type_display": {
+            "title": "Get acquire type display",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "manifest_number": {
+            "description": "An identifier for the order's manifest document.",
+            "maxLength": 50,
+            "title": "Manifest number",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "title": "Delivery info",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "delivery_preferences": {
+        "description": "Customer Delivery Preferences",
+        "title": "Delivery Preferences",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "delivery_provider": {
+        "description": "The company delivering this order.",
+        "title": "Delivery provider",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "discount": {
+        "description": "Discount value applied to the order",
+        "format": "decimal",
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "discount_type": {
+        "description": "Type of discount: % or $",
+        "minLength": 1,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "distributor": {
+        "description": "id of the distributor delivering this order",
+        "title": "Distributor",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ext_acct_id": {
+        "description": "Accounting Service ID",
+        "maxLength": 255,
+        "title": "Accounting Service ID",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "external_id_buyer": {
+        "description": "Number assigned to the order by the buyer company",
+        "minLength": 1,
+        "title": "External id buyer",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "external_id_seller": {
+        "description": "Number assigned to the order by the seller company",
+        "minLength": 1,
+        "title": "External id seller",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "external_ids": {
+        "description": "Set of key-value pairs for storing external system IDs.  Key value can be up to 36 characters long.",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "facility_id": {
+        "description": "Facility ID related to an order",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "final_tax": {
+        "description": "Tax total for the order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "has_special_requests": {
+        "description": "Does the order have special requests?",
+        "title": "Has special requests",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "internal_notes": {
+        "description": "Internal notes for an Order",
+        "maxLength": 2000,
+        "title": "Order Notes",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "is_combination": {
+        "title": "Is combination",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "llf_payment_method": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "manual": {
+        "description": "Was the order manually created by the seller company?",
+        "title": "Manual",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "modified": {
+        "description": "Date and time that the order was last modified",
+        "format": "date-time",
+        "title": "Modified",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "notes": {
+        "description": "Additional notes for an Order",
+        "maxLength": 2000,
+        "title": "Order Notes",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "number": {
+        "description": "<uuid> Order number generated by LeafLink",
+        "minLength": 1,
+        "title": "Number",
+        "type": "string"
+      },
+      "order_buyer_number": {
+        "description": "Read only alias of external_id_buyer.  If external_id_buyer is missing, short_id will be provided.",
+        "title": "Order buyer number",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order_number": {
+        "description": "Read only alias of number.",
+        "minLength": 1,
+        "title": "Order number",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order_seller_number": {
+        "description": "Read only alias of external_id_seller.If external_id_seller is missing, short_id will be provided.",
+        "title": "Order seller number",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order_short_number": {
+        "description": "Read only alias of short_id.",
+        "minLength": 1,
+        "title": "Order short number",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "order_taxes": {
+        "description": "Details about the taxes applied to the order",
+        "items": {
+          "description": "Details about the taxes applied to the order",
+          "properties": {
+            "auto_apply": {
+              "title": "Auto apply",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "id": {
+              "description": "id for the tax type",
+              "title": "Id",
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "name": {
+              "title": "Name",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "order": {
+              "title": "Order",
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "rate": {
+              "title": "Rate",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "state": {
+              "title": "State",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tax": {
+              "title": "Tax",
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "order",
+            "tax"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "paid": {
+        "description": "If this order has been paid for",
+        "title": "Is paid?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "paid_date": {
+        "description": "Date the order was paid",
+        "format": "date",
+        "title": "Paid date",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "payment_balance": {
+        "description": "The outstanding balance on the order",
+        "title": "Payment balance",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "payment_due_date": {
+        "description": "Date that the Payment is due",
+        "format": "date-time",
+        "title": "Payment Due Date",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "payment_methods": {
+        "description": "Payment methods for the order Deprecated field, please use payment_option instead",
+        "items": {
+          "type": "string"
+        },
+        "title": "Payment methods",
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "payment_term": {
+        "description": "Payment term for the order Deprecated field, please use payment_option instead",
+        "title": "Payment term",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sales_reps": {
+        "description": "Sales representatives associated with the order.",
+        "items": {
+          "description": "Sales representatives associated with the order.",
+          "properties": {
+            "id": {
+              "description": "id for the company staff user assigned to this order",
+              "title": "Id",
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "user": {
+              "description": "Concatenated string that contains the first name + last name of the company staff user",
+              "title": "User",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "selected_payment_option": {
+        "type": [
+          "null"
+        ]
+      },
+      "seller": {
+        "description": "Company on the sell side of the order.",
+        "title": "Seller",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "ship_date": {
+        "description": "Date and time the order was shipped",
+        "format": "date-time",
+        "title": "Ship date",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "shipping_charge": {
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "shipping_details": {
+        "description": "Shipping details included on an order",
+        "minLength": 1,
+        "title": "Shipping details",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "short_id": {
+        "description": "The _Order No._ displayed in the user interface",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "status": {
+        "description": "Order status",
+        "title": "Status",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "tax_amount": {
+        "description": "Tax amount applied to the order",
+        "format": "decimal",
+        "title": "Tax amount",
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "tax_type": {
+        "description": "Type of tax: % or $",
+        "minLength": 1,
+        "title": "Tax type",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "total": {
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "user": {
+        "description": "username of the user who last edited the order",
+        "title": "User",
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "orders_received",
+  "tap_stream_id": "orders_received"
+}

@@ -1,0 +1,75 @@
+send_anonymous_usage_stats: true
+project_id: "tap-leaflink"
+default_environment: dev
+requires_meltano: ">=4.0"
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-leaflink
+    namespace: tap_leaflink
+    pip_url: -e .
+    capabilities:
+    - state
+    - catalog
+    - discover
+    - about
+    - stream-maps
+    - structured-logging
+
+    settings:
+    - name: api_key
+      kind: password
+      label: API Key
+      description: LeafLink API key for authentication (App or User token)
+      sensitive: true
+
+    - name: api_url
+      label: API URL
+      description: |
+        LeafLink API base URL. Use https://app.leaflink.com/api/v2 for production,
+        https://www.sandbox.leaflink.com/api/v2 for sandbox, or
+        https://www.leaflink-integrations.leaflink.com/api/v2 for integrations sandbox.
+      value: https://app.leaflink.com/api/v2
+
+    - name: start_date
+      kind: date_iso8601
+      label: Start Date
+      description: The earliest record date to sync. Used for incremental replication on streams that support it.
+
+    settings_group_validation:
+    - [api_key]
+
+    config:
+      start_date: '2024-01-01T00:00:00Z'
+
+    select:
+    # Orders & Payments
+    - orders_received.*
+    - buyer_orders.*
+    - order_payments.*
+    - order_event_logs.*
+    - order_sales_reps.*
+    - line_items.*
+    # Products & Inventory
+    - products.*
+    - product_categories.*
+    - batches.*
+    - inventory_items.*
+    # Customers & Contacts
+    - customers.*
+    - contacts.*
+    # Companies & Staff
+    - companies.*
+    - company_staff.*
+    - brands.*
+    # Compliance
+    - licenses.*
+    - license_types.*
+
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl

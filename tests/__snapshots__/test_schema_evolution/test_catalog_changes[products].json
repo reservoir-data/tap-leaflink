@@ -1,0 +1,1412 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "last_edit"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "drop_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "dropped"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sku"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "quantity"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "reserved_qty"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_inventory"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "display_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_multiplier"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "retail_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "retail_price",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "retail_price",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "wholesale_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "wholesale_price",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "wholesale_price",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price",
+        "properties",
+        "amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sale_price",
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "minimum_order"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "maximum_order"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_medical_line_item"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "AVAILABLE_FOR_SAMPLES"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "extern_acct_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "extern_income_acct_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "featured"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "tagline"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "featured_on_deals"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "allow_fractional_quantities"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "parent"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "parent",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "listing_state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "display_listing_state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "inventory_management"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_of_measure"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sell_in_unit_of_measure"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_denomination"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_denomination",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_denomination",
+        "properties",
+        "value"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_denomination",
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_denomination",
+        "properties",
+        "label"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "category"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "sub_category"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "grow_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "seller_internal_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "brand"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "product_line"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "manufacturer"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "strain_classification"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license",
+        "properties",
+        "number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license",
+        "properties",
+        "type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license",
+        "properties",
+        "display_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license",
+        "properties",
+        "classification"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "children_count"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "strains"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "price_schedule_price"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "image_count"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "is_ancillary"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "s2s_conversion_amount"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "extern_sts_ids"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "strain_classification_display"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "has_deals_eligible_children"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "discount_percent"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "base_units_per_unit"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_ids"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "threshold_value"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "threshold_action"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "reverse_threshold_value"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "reverse_threshold_action"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "show_quantity"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "product_data_items"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ],
+        "valid-replication-keys": [
+          "modified"
+        ]
+      }
+    }
+  ],
+  "replication_key": "modified",
+  "replication_method": "INCREMENTAL",
+  "schema": {
+    "properties": {
+      "AVAILABLE_FOR_SAMPLES": {
+        "description": "Is this product available for samples?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "allow_fractional_quantities": {
+        "description": "Does this product allow fractional quantities to be ordered?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "available_inventory": {
+        "description": "Inventory available for sale (quantity - reserved_qty).",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "base_units_per_unit": {
+        "description": "If the product `unit_of_measure` is `Unit`, this describes the number of base units in each unit of the product. The base unit is defined by the product category.<br>`Cartridges = Grams`<br>`Topicals = Milligrams of Cannabinoids`<br>`Concentrates = Grams`<br>`Flower (excluding Seeds and Clones) = Grams`<br>`Edibles & Ingestibles = Milligrams of Cannabinoids`<br>`Pre-Rolls = Grams`<br>`Accessories = N/A`",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "brand": {
+        "description": "Id for the brand. See `id` in the brands response.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "category": {
+        "description": "Id for the category. See `id` in the product-categories response.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "children_count": {
+        "description": "Number of varieties of this product",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "created_on": {
+        "description": "Date and time the product was created",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "discount_percent": {
+        "description": "Discount applied to a product, calculated by comparing the wholesale and sale price.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "display_listing_state": {
+        "description": "The listing state string displayed in the marketplace.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "display_name": {
+        "description": "If the product is a variety, the parent product name + the product name",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "drop_date": {
+        "description": "Date and time the product is scheduled to transition to Available, if applicable.",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "dropped": {
+        "description": "Date and time the product transitioned to Available.",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "extern_acct_id": {
+        "description": "Id of the product in QuickBooks Online.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "extern_income_acct_id": {
+        "description": "The id for the QuickBooks Online income account.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "extern_sts_ids": {
+        "description": "Id used by the Metrc add on.",
+        "items": {
+          "type": "string"
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "external_ids": {
+        "description": "Set of key-value pairs for storing external system IDs.  Key value can be up to 36 characters long.",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "featured": {
+        "description": "Is the product a featured product?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "featured_on_deals": {
+        "description": "Is this product featured on the LeafLink deals page?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "grow_type": {
+        "description": "If a flower product, the id for the type of grow operation.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "has_deals_eligible_children": {
+        "description": "Does the product have varieties that are eligible for LeafLink deals?'",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "Unique id generated by LeafLink.",
+        "type": "integer"
+      },
+      "image_count": {
+        "description": "The number of product images",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "inventory_management": {
+        "description": "id for the inventory setting [1: \"Managed\", 2: \"Unlimited\", 3: \"Inherited\"]",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "is_ancillary": {
+        "description": "Is the product an ancillary product?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_medical_line_item": {
+        "description": "Is the product a medical product?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "last_edit": {
+        "description": "Date and time the product was last edited by a user",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "license": {
+        "properties": {
+          "classification": {
+            "description": "Classification",
+            "title": "Classification",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "display_type": {
+            "description": "Display type",
+            "title": "Display type",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "description": "id for license",
+            "title": "Id",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "number": {
+            "description": "License Number",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "License Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "description": "Type",
+            "title": "Type",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "number"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "listing_state": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "manufacturer": {
+        "description": "Id for the company that manufactured the product. See `id` in the companies response.  Can be the same id as the seller field.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "maximum_order": {
+        "description": "Maximum units allowed for an order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "minimum_order": {
+        "description": "Minimum units required for an order",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "modified": {
+        "description": "Date and time the product data was last modified.",
+        "title": "Modified",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "parent": {
+        "description": "Parent product to which this product belongs. Required if creating a variety (child product) of a parent product. Varieties are useful when selling a single product in various sizes (i.e. as eighths, grams, and half ounces).",
+        "properties": {
+          "id": {
+            "description": "id of the product",
+            "title": "Id",
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "title": "Parent",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "price_schedule_price": {
+        "description": "If using the buyer query parameter, the special price set for that customer with the price schedule feature.  Otherwise, same as wholesale price.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "product_data_items": {
+        "description": "Product specifications.",
+        "items": {
+          "properties": {
+            "decimal_value": {
+              "description": "Value of the product specification.  Null if `text_value` is populated.",
+              "format": "decimal",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "dosage_unit": {
+              "description": "Dosage unit of the specification.  Available options are `mg` and `%`.  Null when `text_value` is populated.",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "max_decimal_value": {
+              "description": "If there is a range of values for the specification, the maximum value.",
+              "format": "decimal",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "spec_type": {
+              "description": "The slug of the product specificaiton type.  Available values include `thc`, `thca`, `cbn`, `cbg`, `cbd`, `solvents`, `flowering`, `growth`, `cannabinoids`, `terpenes`, `nugget`, `other`, `yield`, `cbc`, `thcv`, `cbda`, `delta-8-thc`, `total-thc`, `total-cbd`, `cbl`, `delta-9-thc`, `cbga`, `cbdv`.",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "text_value": {
+              "description": "The text value of the specification.  Null if `decimal_value` is populated.",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "spec_type"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "product_line": {
+        "description": "Id for the product line. See `id` in the product-lines response.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "quantity": {
+        "description": "Inventory level",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reserved_qty": {
+        "description": "Inventory reserved by orders in the `Submitted` or `Accepted` states",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "retail_price": {
+        "description": "Manufacturer's Suggested Retail Price (MSRP)",
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "reverse_threshold_action": {
+        "description": "Action to take when product inventory quantity reaches above a specified value. Available values include `default`, `available`, and `internal`.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reverse_threshold_value": {
+        "description": "When product inventory quantity reaches above this value, take various actions.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "s2s_conversion_amount": {
+        "description": "Conversion value used by the Metrc add on.",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sale_price": {
+        "description": "Sale price displayed to buyers in the LeafLink marketplace",
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "sell_in_unit_of_measure": {
+        "description": "If selling the product in cases as opposed to individual units, set this field to Case.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "seller": {
+        "description": "Id for the company listing the product. See `id` in the companies response.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "seller_internal_id": {
+        "description": "Internal Product ID",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "show_quantity": {
+        "description": "Show inventory quantities to buyers?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "sku": {
+        "maxLength": 255,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "strain_classification": {
+        "description": "If not applicable to the product, use `na`.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "strain_classification_display": {
+        "title": "Strain classification display",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "strains": {
+        "description": "The strains associated with the product.  This field is required for products with the `Flower` category.",
+        "items": {
+          "description": "Id for the strains associated with the product. See `id` in the strains response.",
+          "type": "integer"
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "sub_category": {
+        "description": "Id for the subcategory. See `id` in the product-subcategories response.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "tagline": {
+        "description": "One-liner that displayed when the product is featured",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "threshold_action": {
+        "description": "Action to take when product inventory quantity reaches below a specified value. Available values include `default`, `backorder`, `unavailable`,and `internal`.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "threshold_value": {
+        "description": "When product inventory quantity reaches below this value, take various actions.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "unit_denomination": {
+        "properties": {
+          "id": {
+            "description": "id for the unit denomination.",
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "label": {
+            "description": "\"1\", \"1/2\", \"1/4\", \"1/8\", \"3/4\", \"2\", \"3 1/2\", \"7\", \"14\", \"6\", \"28\", \"5 1/4\", \"4\", \"2 1/2\", \"8\", \"3 3/4\", \"1/10\", \"6/5\", \"3/2\", \"2/10\", \"1/5\", \"1/3\", \"1/6\", \"3/10\", or \"4/10\"",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "value",
+          "name",
+          "label"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "unit_multiplier": {
+        "default": 1,
+        "description": "If sold in multiples, the number of units sold per case",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "unit_of_measure": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "wholesale_price": {
+        "description": "Wholesale price displayed to buyers in the LeafLink marketplace",
+        "properties": {
+          "amount": {
+            "format": "decimal",
+            "title": "Amount",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "currency": {
+            "minLength": 1,
+            "title": "Currency",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "type": [
+          "object",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "products",
+  "tap_stream_id": "products"
+}

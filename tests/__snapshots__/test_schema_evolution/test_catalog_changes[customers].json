@@ -1,0 +1,1235 @@
+{
+  "key_properties": [
+    "id"
+  ],
+  "metadata": [
+    {
+      "breadcrumb": [
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "managers"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "created_on"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "modified"
+      ],
+      "metadata": {
+        "inclusion": "automatic"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "next_contact_date"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "nickname"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ext_acct_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "old_license_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license_inactive"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "business_identifier"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "ein"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "directions"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_preferences"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "currency"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "shipping_charge"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "brand"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "dba"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "business_license_name"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "description"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "website"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "county"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "country"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "lat"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "long"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "phone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "phone_extension"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "email"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "notes"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "leaflink_last_views"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "leaflink_source"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "archived"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delinquent"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "discount_percent"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "owner"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "partner"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "tier"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "price_schedule"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "service_zone"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "license_type"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_term"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "payment_methods"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options",
+        "properties",
+        "id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options",
+        "properties",
+        "payment_method_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options",
+        "properties",
+        "payment_term_id"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options",
+        "properties",
+        "payment_program"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "available_payment_options",
+        "properties",
+        "payment_strategy"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "status"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "external_ids"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "county"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "corporate_address",
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "address"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "unit_number"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "city"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "county"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "state"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [
+        "properties",
+        "delivery_address",
+        "properties",
+        "zipcode"
+      ],
+      "metadata": {
+        "inclusion": "available"
+      }
+    },
+    {
+      "breadcrumb": [],
+      "metadata": {
+        "inclusion": "available",
+        "selected": true,
+        "selected-by-default": true,
+        "table-key-properties": [
+          "id"
+        ],
+        "valid-replication-keys": [
+          "modified"
+        ]
+      }
+    }
+  ],
+  "replication_key": "modified",
+  "replication_method": "INCREMENTAL",
+  "schema": {
+    "properties": {
+      "address": {
+        "description": "Customer's address",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "archived": {
+        "description": "Is the customer record archived?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "available_payment_options": {
+        "description": "Available payment options for a customer",
+        "items": {},
+        "properties": {
+          "id": {
+            "description": "id for payment option",
+            "title": "Id",
+            "type": "integer"
+          },
+          "payment_method_id": {
+            "title": "Payment method id for payment option",
+            "type": "integer"
+          },
+          "payment_program": {
+            "title": "Payment program for payment option",
+            "type": "string"
+          },
+          "payment_strategy": {
+            "title": "Payment strategy for payment option",
+            "type": "string"
+          },
+          "payment_term_id": {
+            "title": "Payment term id for payment option",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "payment_term_id",
+          "payment_method_id"
+        ],
+        "title": "Available payment options",
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "brand": {
+        "description": "Brand name associated with the customer",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "business_identifier": {
+        "description": "Company identifier distinct from license numbers",
+        "maxLength": 100,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "business_license_name": {
+        "description": "Business License Name",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "city": {
+        "description": "City",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "corporate_address": {
+        "properties": {
+          "address": {
+            "title": "Address",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "title": "City",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "county": {
+            "title": "County",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "description": "State abbreviation",
+            "title": "State",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "title": "Unit Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zipcode": {
+            "title": "Zip Code",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "country": {
+        "description": "Country",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "county": {
+        "description": "County",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "created_on": {
+        "description": "Date and time the customer was created.",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "currency": {
+        "description": "Currency used by the customer.",
+        "minLength": 1,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "dba": {
+        "description": "DBA of customer",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "delinquent": {
+        "description": "Is this customer delinquent on billing?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "delivery_address": {
+        "properties": {
+          "address": {
+            "title": "Address",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "title": "City",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "county": {
+            "title": "County",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "description": "State abbreviation",
+            "title": "State",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_number": {
+            "title": "Unit Number",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zipcode": {
+            "title": "Zip Code",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "delivery_preferences": {
+        "description": "Customer delivery preferences. These will show up as footnotes on orders placed by the customer.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "description": "Additional information about the customer",
+        "maxLength": 4000,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "directions": {
+        "description": "Directions to the customer's location",
+        "maxLength": 3000,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "discount_percent": {
+        "description": "Discount percent for orders from this customer.",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ein": {
+        "description": "Company's federal EIN number. For Customers linked to LeafLink Buyers (partner_id=Company.id), this field is read-only and inherited directly from the linked LeafLink Buyer Company. For Customers not linked to LeafLink Buyer Companies (partner_id=null), this field will return null.",
+        "maxLength": 100,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "email": {
+        "description": "Email address",
+        "format": "email",
+        "maxLength": 255,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ext_acct_id": {
+        "description": "Id of the customer in QuickBooks Online.",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "external_id": {
+        "description": "Id of the customer in a 3rd party system",
+        "maxLength": 100,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "external_ids": {
+        "description": "Set of key-value pairs for storing external system IDs.  Key value can be up to 36 characters long.",
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "id": {
+        "description": "Unique id generated by LeafLink.",
+        "type": "integer"
+      },
+      "lat": {
+        "description": "Location latitude",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "leaflink_last_views": {
+        "description": "The last time this customer viewed your products.",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "leaflink_source": {
+        "description": "Was this customer added to your CRM by LeafLink?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "license_inactive": {
+        "description": "Is the license inactive for this customer?",
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "license_number": {
+        "description": "License Number",
+        "maxLength": 100,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "license_type": {
+        "description": "Customer's business license type",
+        "title": "Business License Type",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "long": {
+        "description": "Location longitude",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "managers": {
+        "description": "Ids for the sales reps assigned to this customer.",
+        "items": {
+          "type": "integer"
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "modified": {
+        "description": "Date and time the customer was last modified.",
+        "format": "date-time",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "name": {
+        "description": "Customer name",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "next_contact_date": {
+        "description": "Date for the next contact, YYYY-MM-DD",
+        "format": "date",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "nickname": {
+        "description": "Alternate name for the customer",
+        "maxLength": 200,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "notes": {
+        "description": "Other information about the customer",
+        "maxLength": 3000,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "old_license_number": {
+        "description": "Old license number for the customer",
+        "maxLength": 100,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "owner": {
+        "description": "Id for the company that this customer record is for.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "partner": {
+        "description": "Id for the buyer company that this customer record represents.",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "payment_methods": {
+        "description": "Customer's payment methods Deprecated field, please use payment_option instead",
+        "items": {
+          "type": "integer"
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "payment_term": {
+        "description": "Customer's payment terms Deprecated field, please use payment_option instead",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "phone": {
+        "description": "Phone Number",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "phone_extension": {
+        "description": "Phone Extension",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "price_schedule": {
+        "description": "Id for the price schedule assigned to the customer",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "service_zone": {
+        "description": "Customer's service zone",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "shipping_charge": {
+        "description": "Additional shipping charge",
+        "format": "decimal",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "state": {
+        "description": "State abbreviation",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "status": {
+        "description": "Id for the customer's status",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "tier": {
+        "description": "Id for the customer's tier",
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "unit_number": {
+        "description": "Unit # for the address",
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "website": {
+        "description": "Customer's website",
+        "format": "uri",
+        "maxLength": 400,
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "zipcode": {
+        "description": "Zipcode",
+        "maxLength": 6,
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "stream": "customers",
+  "tap_stream_id": "customers"
+}
