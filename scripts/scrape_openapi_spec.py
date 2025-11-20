@@ -62,7 +62,7 @@ def download_openapi_spec(url: str, output_path: Path) -> None:
     spec = extract_openapi_spec_from_html(response.text)
 
     if spec:
-        output_path.write_text(json.dumps(spec, indent=2))
+        output_path.write_text(json.dumps(spec, indent=2) + "\n")
         rich.print(f"[green]✓[/green] Successfully downloaded to {output_path}")
 
         # Print some basic info about the spec
