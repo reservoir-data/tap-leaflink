@@ -9,7 +9,7 @@ import rich
 
 DOCS_URL = "https://developer.leaflink.com/legacy/v2/api/ref/"
 OUTPUT_DIR = Path("tap_leaflink/openapi_specs")
-OUTPUT_FILE = OUTPUT_DIR / "leaflink.json"
+OUTPUT_FILE = OUTPUT_DIR / "openapi.json"
 
 
 def extract_openapi_spec_from_html(html_content: str) -> dict | None:
