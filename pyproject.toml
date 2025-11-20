@@ -54,7 +54,6 @@ typing = [
 ]
 scrape = [
     "beautifulsoup4>=4.12",
-    "playwright>=1.49",
     "rich>=13",
 ]
 
