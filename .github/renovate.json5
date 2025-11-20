@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "reservoir-data/.github//.github/renovate.json5"
+  ],
+
+  "pep723": {
+    "fileMatch": ["scripts/scrape_openapi_spec.py"]
+  },
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["uv", "astral-sh/uv-pre-commit"],
+      "groupName": "uv-version"
+    },
+    {
+      "matchPackageNames": ["tox", "tox-uv"],
+      "groupName": "tox-version"
+    }
+  ]
+}
