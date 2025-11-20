@@ -45,3 +45,4 @@ jobs:
         commit-message: 'fix: Update OpenAPI spec'
         branch: update-openapi-spec
         delete-branch: true
+        signoff: true
