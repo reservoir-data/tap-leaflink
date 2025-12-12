@@ -1,6 +1,6 @@
 """Tests standard tap features using the built-in SDK tests library."""
 
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from singer_sdk.testing import get_tap_test_class
 
@@ -8,7 +8,7 @@ from tap_leaflink.tap import TapLeafLink
 
 
 def _one_month_ago() -> datetime:
-    return datetime.now(timezone.utc) - timedelta(days=30)
+    return datetime.now(UTC) - timedelta(days=30)
 
 
 SAMPLE_CONFIG = {

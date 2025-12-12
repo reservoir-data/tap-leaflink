@@ -1299,11 +1299,7 @@
           "null"
         ]
       },
-      "selected_payment_option": {
-        "type": [
-          "null"
-        ]
-      },
+      "selected_payment_option": {},
       "seller": {
         "description": "Company on the sell side of the order.",
         "title": "Seller",
