@@ -12,15 +12,13 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
 ]
 license = "Apache-2.0"
 license-files = [ "LICENSE" ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "singer-sdk~=0.53.2",
     "requests~=2.32.3",
@@ -80,6 +78,9 @@ select = ["ALL"]
 [tool.ruff.lint.flake8-annotations]
 allow-star-arg-any = true
 
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["S101"]
+
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
@@ -101,8 +102,6 @@ env_list = [
     "py314",
     "py313",
     "py312",
-    "py311",
-    "py310",
 ]
 
 [tool.tox.env_run_base]

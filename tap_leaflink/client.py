@@ -2,18 +2,12 @@
 
 from __future__ import annotations
 
-import sys
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING, Any, override
 from urllib.parse import parse_qs, urlparse
 
 from singer_sdk.authenticators import APIKeyAuthenticator
 from singer_sdk.pagination import BaseHATEOASPaginator
 from singer_sdk.streams import RESTStream
-
-if sys.version_info >= (3, 12):
-    from typing import override
-else:
-    from typing_extensions import override
 
 if TYPE_CHECKING:
     import requests

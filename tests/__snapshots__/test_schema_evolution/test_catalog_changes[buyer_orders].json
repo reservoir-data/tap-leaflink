@@ -1109,17 +1109,11 @@
       },
       "payment_methods": {
         "description": "Deprecated field, please use payment_option instead<br>\nCustomer's payment method<br>\nEnum: <code>\"cash\"</code> <code>\"check\"</code> <code>\"wire\"</code> <code>\"ach\"</code>",
-        "title": "Payment Methods",
-        "type": [
-          "null"
-        ]
+        "title": "Payment Methods"
       },
       "payment_term": {
         "description": "Deprecated field, please use payment_option instead<br>\nCustomer's payment terms<br>\nEnum: <code>\"llf\"</code> <code>\"cod\"</code> <code>\"net3\"</code> <code>\"net7\"</code>\n<code>\"net10\"</code> <code>\"net14\"</code> <code>\"net15\"</code> <code>\"net20\"</code>\n<code>\"net30\"</code> <code>\"net60\"</code> <code>\"net90\"</code> <code>\"prepay\"</code> <code>\"consign\"</code><br>\nDeprecated values (will be mapped appropriately):<br>\n(1, \"Cash\") replaced with \"cod\"<br>\n(2, \"Net 7\") replaced with \"net7\"<br>\n(3, \"Net 15\") replaced with \"net15\",<br>\n(4, \"Net 30\") replaced with \"net30\"<br>\n(5, \"Net 10\") replaced with \"net10\"<br>\n(6, \"Net 20\") replaced with \"net20<br>\n(7, \"Net 60\") replaced with \"net60\"<br>\n(8, \"Net 3\") replaced with \"net3\"<br>\n(9, \"Net 14\") replaced with \"net14\"<br>\n(10, \"Pre-Payment\") replaced with \"prepay\"<br>\n(11, \"LeafLink Financial - Net 30\") replaced with \"llf\" with payment_methods [\"ach\"]<br>\n(12, \"Consignment\") replaced with \"consign\"<br>\n(13, \"LeafLink Financial - Net 15\") replaced with \"llf\" with payment_methods [\"ach\"]<br>\n(14, \"Net 90\") replaced with \"net90\"<br>\n(15, \"Wire on Delivery\") replaced with \"cod\" with payment_methods [\"wire\"]<br>\n(20, \"COD\") replaced with \"cod\"<br>\n(21, \"LeafLink Financial\") replaced with \"llf\" with payment_methods [\"ach\"]<br>",
-        "title": "Payment Term",
-        "type": [
-          "null"
-        ]
+        "title": "Payment Term"
       },
       "sales_reps": {
         "description": "Names of the sales reps assigned to the order",
