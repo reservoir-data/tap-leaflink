@@ -9,7 +9,7 @@ on:
 env:
   FORCE_COLOR: "1"
   # renovate: datasource=pypi depName=uv
-  UV_VERSION: 0.9.22
+  UV_VERSION: 0.9.24
 
 jobs:
   scrape:
