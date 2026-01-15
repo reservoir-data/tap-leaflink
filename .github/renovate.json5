@@ -10,16 +10,4 @@
   "pep723": {
     "fileMatch": ["scripts/scrape_openapi_spec.py"]
   },
-
-  // https://docs.renovatebot.com/configuration-options/#packagerules
-  "packageRules": [
-    {
-      "matchPackageNames": ["uv", "astral-sh/uv-pre-commit"],
-      "groupName": "uv-version"
-    },
-    {
-      "matchPackageNames": ["tox", "tox-uv"],
-      "groupName": "tox-version"
-    },
-  ],
 }
