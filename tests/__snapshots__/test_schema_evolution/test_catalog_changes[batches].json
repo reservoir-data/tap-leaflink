@@ -36,7 +36,7 @@
         "batch_date"
       ],
       "metadata": {
-        "inclusion": "available"
+        "inclusion": "automatic"
       }
     },
     {
@@ -151,19 +151,19 @@
       "breadcrumb": [],
       "metadata": {
         "inclusion": "available",
-        "replication-key": "modified",
+        "replication-key": "batch_date",
         "selected": true,
         "selected-by-default": true,
         "table-key-properties": [
           "id"
         ],
         "valid-replication-keys": [
-          "modified"
+          "batch_date"
         ]
       }
     }
   ],
-  "replication_key": "modified",
+  "replication_key": "batch_date",
   "replication_method": "INCREMENTAL",
   "schema": {
     "properties": {

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from importlib import resources
+from typing import override
 
 from singer_sdk import OpenAPISchema, StreamSchema
 
@@ -97,7 +98,7 @@ class BatchesStream(LeafLinkStream):
     name = "batches"
     path = "/batches/"
     primary_keys = ("id",)
-    replication_key = "modified"
+    replication_key = "batch_date"
 
     schema = StreamSchema(OPENAPI_SPEC, key="BatchResponse")
 
