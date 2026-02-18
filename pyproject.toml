@@ -22,12 +22,11 @@ requires-python = ">=3.12"
 dependencies = [
     "singer-sdk~=0.53.2",
     "requests~=2.32.3",
-    "typing-extensions>=4.5.0; python_version < '3.13'",
 ]
 
 [project.optional-dependencies]
 s3 = [
-    "s3fs~=2026.1.0",
+    "s3fs>=2026.1.0",
 ]
 
 [project.scripts]
@@ -40,14 +39,14 @@ dev = [
     { include-group = "scrape" },
 ]
 test = [
-    "pytest>=8",
+    "pytest>=9",
     "pytest-github-actions-annotate-failures>=0.3",
     "singer-sdk[testing]",
     "syrupy>=4",
 ]
 typing = [
-    "mypy>=1.16.0",
-    "ty>=0.0.1-alpha.16",
+    "mypy>=1.19.0",
+    "ty>=0.0.15",
     "types-requests",
 ]
 scrape = [
@@ -119,3 +118,6 @@ commands = [
     [ "mypy", { replace = "posargs", default = [ "tap_leaflink", "tests" ], extend = true } ],
     [ "ty", "check", { replace = "posargs", default = [ "tap_leaflink", "tests" ], extend = true } ],
 ]
+
+[tool.uv.sources]
+singer-sdk = { git = "https://github.com/meltano/sdk.git", rev = "main" }
