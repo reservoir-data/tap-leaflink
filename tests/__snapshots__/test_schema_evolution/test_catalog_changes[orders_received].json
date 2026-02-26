@@ -717,7 +717,6 @@
       "breadcrumb": [],
       "metadata": {
         "inclusion": "available",
-        "replication-key": "modified",
         "selected": true,
         "selected-by-default": true,
         "table-key-properties": [
