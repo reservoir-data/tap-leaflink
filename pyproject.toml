@@ -118,6 +118,3 @@ commands = [
     [ "mypy", { replace = "posargs", default = [ "tap_leaflink", "tests" ], extend = true } ],
     [ "ty", "check", { replace = "posargs", default = [ "tap_leaflink", "tests" ], extend = true } ],
 ]
-
-[tool.uv.sources]
-singer-sdk = { git = "https://github.com/meltano/sdk.git", rev = "main" }
