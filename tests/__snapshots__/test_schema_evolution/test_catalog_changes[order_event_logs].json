@@ -134,7 +134,6 @@
         ]
       },
       "by": {
-        "pattern": "^[\\w.@+-]+$",
         "title": "By",
         "type": [
           "string",
