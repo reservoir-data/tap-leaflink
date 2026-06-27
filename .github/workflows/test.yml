@@ -3,6 +3,9 @@
 
 name: Test tap-leaflink
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [main]
@@ -21,8 +24,9 @@ on:
     - uv.lock
   workflow_dispatch:
 
-permissions:
-  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
 
 env:
   FORCE_COLOR: 1
@@ -40,6 +44,8 @@ jobs:
         - "3.14"
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      with:
+        persist-credentials: false
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
       with:
@@ -51,14 +57,17 @@ jobs:
     - name: Run Tox
       env:
         TAP_LEAFLINK_API_KEY: ${{ secrets.TAP_LEAFLINK_API_KEY }}
+        MATRIX_PYTHON_VERSION: ${{ matrix.python-version }}
       run: |
-        uvx --with=tox-uv tox -e ${{ matrix.python-version }}
+        uvx --with=tox-uv tox -e "${MATRIX_PYTHON_VERSION}"
 
   typing:
     name: Type Checking
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      with:
+        persist-credentials: false
     - name: Set up Python
       uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
     - name: Setup uv
@@ -74,4 +83,6 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       - uses: j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d # v2.0.4
