@@ -23,7 +23,7 @@ class LeafLinkPaginator(BaseHATEOASPaginator):
     @override
     def get_next_url(self, response: requests.Response) -> str | None:
         data = response.json()
-        return data.get("next")
+        return data.get("next")  # type: ignore[no-any-return]
 
 
 class LeafLinkStream(RESTStream):
@@ -35,16 +35,16 @@ class LeafLinkStream(RESTStream):
     # Page size for pagination
     page_size = 100
 
-    @override
     @property
+    @override
     def url_base(self) -> str:
         """The API URL root, configurable via tap settings."""
-        base_url = self.config.get("api_url", "https://app.leaflink.com")
+        base_url: str = self.config.get("api_url", "https://app.leaflink.com")
         # Ensure URL ends without trailing slash (we add it in paths)
         return base_url.rstrip("/")
 
-    @override
     @property
+    @override
     def authenticator(self) -> APIKeyAuthenticator:
         return APIKeyAuthenticator(
             key="Authorization",

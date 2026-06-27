@@ -1,10 +1,17 @@
 name: Update Catalog by downloading fresh OpenAPI spec
 
+permissions:
+  contents: read
+
 on:
   schedule:
     # Run daily at 12 PM UTC
     - cron: '0 12 * * *'
   workflow_dispatch: # Allow manual triggers
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
 
 env:
   FORCE_COLOR: "1"
@@ -22,10 +29,13 @@ jobs:
     - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
       id: generate-token
       with:
-        app-id: ${{ vars.RESERVOIR_GITHUB_APP_ID }}
+        permission-contents: write
+        client-id: ${{ vars.RESERVOIR_GITHUB_APP_ID }}
         private-key: ${{ secrets.RESERVOIR_GITHUB_APP_PKEY }}
 
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      with:
+        persist-credentials: false
 
     - name: Set up uv
       uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
@@ -35,13 +45,14 @@ jobs:
     - name: Run OpenAPI spec scraper
       run: uv run --group scrape python scripts/scrape_openapi_spec.py
 
-    - name: Check Snaphot changes
+    - name: Check Snapshot changes
       id: check_snapshot_changes
       continue-on-error: true
       run: git diff --quiet tests/__snapshots__
 
     - name: Open a Pull Request
       uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
+      # zizmor: ignore[superfluous-actions]
       if: steps.check_snapshot_changes.outcome == 'failure'
       with:
         title: 'fix: Update catalog from fresh OpenAPI spec'

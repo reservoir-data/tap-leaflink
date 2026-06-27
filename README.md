@@ -75,9 +75,10 @@ Create a `config.json` file:
 LeafLink uses API key authentication with two token types:
 
 1. **User Token**: Access to all companies where the user has permissions
-2. **App Token**: Access to a single company (recommended for integrations)
+1. **App Token**: Access to a single company (recommended for integrations)
 
 The API enforces rate limiting:
+
 - Standard: 300 requests/minute
 - Burst: 1000 requests/minute
 - Violations return `429 Too Many Requests`

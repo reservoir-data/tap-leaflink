@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
-from typing import override
+from typing import TYPE_CHECKING, override
 
 from singer_sdk import Tap
 from singer_sdk import typing as th  # JSON schema typing helpers
 
 from tap_leaflink import streams
+
+if TYPE_CHECKING:
+    from tap_leaflink.client import LeafLinkStream
 
 
 class TapLeafLink(Tap):
@@ -45,7 +48,7 @@ class TapLeafLink(Tap):
     ).to_dict()
 
     @override
-    def discover_streams(self) -> list[streams.LeafLinkStream]:
+    def discover_streams(self) -> list[LeafLinkStream]:
         """Return a list of discovered streams.
 
         Returns:
