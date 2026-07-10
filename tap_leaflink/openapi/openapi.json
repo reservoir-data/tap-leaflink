@@ -168,52 +168,97 @@
           {
             "name": "owner",
             "in": "query",
-            "description": "Filter by owner ID.",
+            "description": "Filter by owner ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "owner_id",
+            "in": "query",
+            "description": "Filter by owner ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "author",
             "in": "query",
-            "description": "Filter by author ID.",
+            "description": "Filter by author ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "author_id",
+            "in": "query",
+            "description": "Filter by author ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "company",
             "in": "query",
-            "description": "Filter by associated company ID.",
+            "description": "Filter by associated company ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "company_id",
+            "in": "query",
+            "description": "Filter by associated company ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "customer",
             "in": "query",
-            "description": "Filter by associated customer ID.",
+            "description": "Filter by associated customer ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "customer_id",
+            "in": "query",
+            "description": "Filter by associated customer ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "staff",
             "in": "query",
-            "description": "Filter by associated staff ID.",
+            "description": "Filter by associated staff ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "staff_id",
+            "in": "query",
+            "description": "Filter by associated staff ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "type",
             "in": "query",
-            "description": "Filter by activity type.",
+            "description": "Filter by activity type (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
               "type": "string"
@@ -222,19 +267,37 @@
           {
             "name": "brand",
             "in": "query",
-            "description": "Filter by associated brand ID.",
+            "description": "Filter by associated brand ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "brand_id",
+            "in": "query",
+            "description": "Filter by associated brand ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
             "name": "contact",
             "in": "query",
-            "description": "Filter by associated contact ID.",
+            "description": "Filter by associated contact ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
+            }
+          },
+          {
+            "name": "contact_id",
+            "in": "query",
+            "description": "Filter by associated contact ID (supports multiple values, comma-separated).",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           },
           {
@@ -250,6 +313,60 @@
             "name": "delete",
             "in": "query",
             "description": "Filter by deleted or non-deleted entries.",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "is_deleted",
+            "in": "query",
+            "description": "Filter by deleted or non-deleted entries (alternative to delete parameter).",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "fields_include",
+            "in": "query",
+            "description": "Include only specific fields in the response, separated by commas.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fields_exclude",
+            "in": "query",
+            "description": "Exclude specific fields in the response, separated by commas.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fields_add",
+            "in": "query",
+            "description": "Include additional fields in the response. Available values include `created_by` and `last_changed_by`",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "description": "Search by entry field",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordering",
+            "in": "query",
+            "description": "Order results by field (prefix with '-' for descending). Available fields: customer__nickname, customer__name",
             "required": false,
             "schema": {
               "type": "string"
@@ -389,8 +506,15 @@
         "summary": "Delete",
         "description": "Set the `delete` flag on a `CompanyActivityEntry` to true. These can\n    be filtered out in list requests.",
         "responses": {
-          "204": {
-            "description": ""
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompanyActivityEntry"
+                }
+              }
+            }
           }
         },
         "tags": [
@@ -1809,9 +1933,9 @@
         }
       ]
     },
-    "/customer-status/": {
+    "/customer-statuses/": {
       "get": {
-        "operationId": "customer-status_list",
+        "operationId": "customer-statuses_list",
         "summary": "List",
         "description": "List all `CompanyCustomerStatus` objects available for use.",
         "parameters": [
@@ -1831,6 +1955,123 @@
             "required": false,
             "schema": {
               "type": "integer"
+            }
+          },
+          {
+            "name": "fields_include",
+            "in": "query",
+            "description": "Include only specific fields in the response, separated by commas.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fields_exclude",
+            "in": "query",
+            "description": "Exclude specific fields in the response, separated by commas.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fields_add",
+            "in": "query",
+            "description": "Include additional fields in the response. Available values include `created_by` and `last_changed_by`",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Filter by id",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "description": "Filter by state (case-insensitive contains match)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "order",
+            "in": "query",
+            "description": "Filter by order",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "description",
+            "in": "query",
+            "description": "Filter by description",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "owner",
+            "in": "query",
+            "description": "Filter by owner ID",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "is_stock",
+            "in": "query",
+            "description": "Filter by is_stock",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "hex_color",
+            "in": "query",
+            "description": "Filter by hex_color",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "company_slug",
+            "in": "query",
+            "description": "Filter by Company slug",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "description": "Search by state or description",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ordering",
+            "in": "query",
+            "description": "Order results by field (prefix with '-' for descending)",
+            "required": false,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -2063,6 +2304,217 @@
           "name": "id",
           "in": "path",
           "description": "A unique integer value identifying this company customer tier.",
+          "required": true,
+          "schema": {
+            "type": "integer"
+          }
+        }
+      ]
+    },
+    "/credits/": {
+      "get": {
+        "operationId": "credits_list",
+        "summary": "List",
+        "description": "List all credits for companies the requester has CRM management access for.\nRequires Token or Application authentication. Staff users need CAN_MANAGE_CRM permission;\nApplication auth requires CAN_READ_CRM role. Read-only (GET only).",
+        "parameters": [
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of results to return per page.",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "The initial index from which to return the results.",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "ordering",
+            "in": "query",
+            "description": "Order results by field (prefix with '-' for descending). Supports id.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "description": "Filter by status (active, used, cancelled). Supports multiple comma-separated values.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "reason",
+            "in": "query",
+            "description": "Filter by reason (leaflink_return, promo_new_customer, promo_existing_customer, etc.).",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "brand",
+            "in": "query",
+            "description": "Filter by brand ID(s).",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "customer",
+            "in": "query",
+            "description": "Filter by customer/CompanyCustomer ID(s).",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "credit_date_after",
+            "in": "query",
+            "description": "Filter by credit date on or after this date (YYYY-MM-DD).",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "credit_date_before",
+            "in": "query",
+            "description": "Filter by credit date on or before this date (YYYY-MM-DD).",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "amount_min",
+            "in": "query",
+            "description": "Filter by minimum credit amount.",
+            "required": false,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "amount_max",
+            "in": "query",
+            "description": "Filter by maximum credit amount.",
+            "required": false,
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "order",
+            "in": "query",
+            "description": "Filter by order UUID.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "company_slug",
+            "in": "query",
+            "description": "Filter by company slug.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "archived",
+            "in": "query",
+            "description": "Filter by archived status.",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "required": [
+                    "count",
+                    "results"
+                  ],
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    },
+                    "next": {
+                      "type": "string",
+                      "format": "uri",
+                      "nullable": true
+                    },
+                    "previous": {
+                      "type": "string",
+                      "format": "uri",
+                      "nullable": true
+                    },
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Credit"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "credits"
+        ]
+      },
+      "parameters": []
+    },
+    "/credits/{id}/": {
+      "get": {
+        "operationId": "credits_read",
+        "summary": "Read",
+        "description": "Retrieve a single credit by ID. Requires Token or Application authentication.\nStaff users need CAN_MANAGE_CRM permission; Application auth requires CAN_READ_CRM role.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Credit"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "credits"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "description": "A unique integer value identifying this credit.",
           "required": true,
           "schema": {
             "type": "integer"
@@ -2697,46 +3149,46 @@
           {
             "name": "owner",
             "in": "query",
-            "description": "Filter by owner ID.",
+            "description": "Filter by owner ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
             "name": "partner",
             "in": "query",
-            "description": "Filter by partner ID.",
+            "description": "Filter by partner ID (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
             "name": "tier",
             "in": "query",
-            "description": "Filter by the ID of a customer's tier.",
+            "description": "Filter by the ID of a customer's tier (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
             "name": "price_schedule",
             "in": "query",
-            "description": "Filter by the ID of a customer's price schedule.",
+            "description": "Filter by the ID of a customer's price schedule (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
             "name": "service_zone",
             "in": "query",
-            "description": "Filter by the ID of a customer's service zone.",
+            "description": "Filter by the ID of a customer's service zone (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
@@ -2754,7 +3206,7 @@
             "description": "Filter by the whether a customer's license is active.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "boolean"
             }
           },
           {
@@ -2766,19 +3218,19 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Filter by the ID of a customer's status.",
+            "description": "Filter by the ID of a customer's status (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
             "name": "state",
             "in": "query",
-            "description": "Filter by the ID of a customer's state.",
+            "description": "Filter by the ID of a customer's state (supports multiple values, comma-separated).",
             "required": false,
             "schema": {
-              "type": "number"
+              "type": "string"
             }
           },
           {
@@ -2787,7 +3239,7 @@
             "description": "Filter by whether the customer was added by LeafLink.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "boolean"
             }
           },
           {
@@ -2796,7 +3248,16 @@
             "description": "Filter by whether the customer has been archived.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "is_archived",
+            "in": "query",
+            "description": "Filter by whether the customer has been archived (alternative to archived parameter).",
+            "required": false,
+            "schema": {
+              "type": "boolean"
             }
           },
           {
@@ -2805,7 +3266,7 @@
             "description": "Filter by whether the customer is delinquent.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "boolean"
             }
           },
           {
@@ -2994,7 +3455,7 @@
         "summary": "Archive a customer",
         "description": "Archive a customer by ID.",
         "responses": {
-          "201": {
+          "200": {
             "description": "",
             "content": {
               "application/json": {
@@ -5351,6 +5812,147 @@
         }
       ]
     },
+    "/orders-received/{number}/line-items/": {
+      "get": {
+        "operationId": "orders-received-line-items_list",
+        "summary": "List line items",
+        "description": "List line items for an order.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LineItemResponse"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "line-items"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "number",
+          "in": "path",
+          "description": "Order number",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "/orders-received/{number}/payments/": {
+      "get": {
+        "operationId": "orders-received-payments_list",
+        "summary": "List payments",
+        "description": "List payments for an order.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderPaymentResponse"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "order-payments"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "number",
+          "in": "path",
+          "description": "Order number",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "/orders-received/{number}/comments/": {
+      "get": {
+        "operationId": "orders-received-comments_list",
+        "summary": "List comments",
+        "description": "List comments for an order.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OrderComment"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "order-comments"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "number",
+          "in": "path",
+          "description": "Order number",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "/orders/{order_number}/delivery-information/": {
+      "get": {
+        "operationId": "orders-received-delivery-information_read",
+        "summary": "Retrieve delivery information",
+        "description": "Retrieve an order and associated delivery information.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderDeliveryInformation"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "orders-received"
+        ]
+      },
+      "parameters": [
+        {
+          "name": "order_number",
+          "in": "path",
+          "description": "Order number",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ]
+    },
     "/product-batches/": {
       "get": {
         "operationId": "product-batches_list",
@@ -7524,6 +8126,10 @@
       "name": "customer-tiers"
     },
     {
+      "description": "The Credit model represents credits granted by a seller company to a customer for use in future purchases. Read-only.",
+      "name": "credits"
+    },
+    {
       "description": "The License model represents a single state-issued license held by a Company.",
       "name": "licenses"
     },
@@ -7704,6 +8310,7 @@
         "activity-entries",
         "customer-statuses",
         "customer-tiers",
+        "credits",
         "customer-tags"
       ]
     },
@@ -9446,8 +10053,7 @@
             "title": "Tax Type",
             "type": "string",
             "enum": [
-              "%",
-              "$"
+              "%"
             ]
           },
           "total": {
@@ -10148,6 +10754,129 @@
             "type": "integer",
             "maximum": 2147483647,
             "minimum": 0
+          }
+        }
+      },
+      "Credit": {
+        "type": "object",
+        "readOnly": true,
+        "description": "Credit granted by a seller company to a customer for use in future purchases. Read-only.",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier for the credit",
+            "readOnly": true
+          },
+          "company": {
+            "type": "integer",
+            "description": "ID of the seller company that granted the credit",
+            "readOnly": true
+          },
+          "customer": {
+            "$ref": "#/components/schemas/LightCompanyCustomer"
+          },
+          "amount": {
+            "type": "object",
+            "required": [
+              "amount",
+              "currency"
+            ],
+            "properties": {
+              "amount": {
+                "type": "number",
+                "description": "Credit amount"
+              },
+              "currency": {
+                "type": "string",
+                "description": "Currency code (e.g., USD)"
+              }
+            },
+            "readOnly": true
+          },
+          "credit_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date the credit was granted",
+            "readOnly": true
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "active",
+              "used",
+              "cancelled"
+            ],
+            "readOnly": true
+          },
+          "status_display": {
+            "type": "string",
+            "description": "Human-readable status",
+            "readOnly": true
+          },
+          "reason": {
+            "type": "string",
+            "enum": [
+              "leaflink_return",
+              "promo_new_customer",
+              "promo_existing_customer",
+              "return_defective",
+              "return_expired",
+              "return_packaging",
+              "return_order_issue",
+              "return_other",
+              "other"
+            ],
+            "readOnly": true
+          },
+          "reason_display": {
+            "type": "string",
+            "description": "Human-readable reason",
+            "readOnly": true
+          },
+          "brand": {
+            "type": "integer",
+            "description": "Brand ID if credit is brand-specific",
+            "readOnly": true,
+            "nullable": true
+          },
+          "order": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Order UUID the credit is associated with",
+            "readOnly": true,
+            "nullable": true
+          },
+          "order_display": {
+            "type": "string",
+            "description": "Seller's order reference (e.g., GDF - 8396)",
+            "readOnly": true
+          },
+          "notes": {
+            "type": "string",
+            "maxLength": 500,
+            "readOnly": true
+          },
+          "applied_to": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Order UUID this credit was applied to (if used)",
+            "readOnly": true,
+            "nullable": true
+          },
+          "applied_to_display": {
+            "type": "string",
+            "description": "Seller's order reference for applied order",
+            "readOnly": true
+          },
+          "read_only": {
+            "type": "boolean",
+            "description": "True if credit is used and cannot be modified",
+            "readOnly": true
+          },
+          "archived": {
+            "type": "boolean",
+            "description": "Whether the credit has been soft-deleted",
+            "readOnly": true
           }
         }
       },
@@ -11421,6 +12150,11 @@
             ]
           }
         }
+      },
+      "OrderDeliveryInformation": {
+        "type": "object",
+        "description": "Order delivery information payload.",
+        "additionalProperties": true
       },
       "OrderSalesRepSerialzer": {
         "required": [
@@ -13816,7 +14550,7 @@
           },
           "tax_type": {
             "title": "Tax type",
-            "description": "Type of tax: % or $",
+            "description": "Type of tax: %",
             "type": "string",
             "minLength": 1
           },
@@ -14122,7 +14856,7 @@
           },
           "tax_type": {
             "title": "Tax type",
-            "description": "Type of tax: % or $",
+            "description": "Type of tax: %",
             "type": "string",
             "minLength": 1
           },
@@ -14649,7 +15383,7 @@
           },
           "tax_type": {
             "title": "Tax type",
-            "description": "Type of tax: % or $",
+            "description": "Type of tax: %",
             "type": "string",
             "minLength": 1
           },
@@ -14723,7 +15457,7 @@
           },
           "payment_due_date": {
             "title": "Payment Due Date",
-            "description": "Date that the Payment is due",
+            "description": "Date that the Payment is due. It is best practice to include a time (e.g. 2024-01-15T17:00:00Z). If a time is not provided, it will default to the server's time zone which is UTC.",
             "type": "string",
             "format": "date-time",
             "nullable": true
@@ -14886,7 +15620,7 @@
           },
           "tax_type": {
             "title": "Tax type",
-            "description": "Type of tax: % or $",
+            "description": "Type of tax: %",
             "type": "string",
             "minLength": 1
           },

@@ -1380,7 +1380,7 @@
         ]
       },
       "tax_type": {
-        "description": "Type of tax: % or $",
+        "description": "Type of tax: %",
         "minLength": 1,
         "title": "Tax type",
         "type": [
