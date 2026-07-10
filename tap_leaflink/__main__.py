@@ -1,4 +1,4 @@
-"""LeafLink entry point."""
+"""LeafLink entry point."""  # ruff:ignore[missing-copyright-notice]
 
 from __future__ import annotations
 

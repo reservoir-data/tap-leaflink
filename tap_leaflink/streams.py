@@ -1,4 +1,4 @@
-"""Stream type classes for tap-leaflink."""
+"""Stream type classes for tap-leaflink."""  # ruff:ignore[missing-copyright-notice]
 
 from __future__ import annotations
 

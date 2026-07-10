@@ -1,4 +1,4 @@
-"""Tests standard tap features using the built-in SDK tests library."""
+"""Tests standard tap features using the built-in SDK tests library."""  # ruff:ignore[missing-copyright-notice]
 
 from datetime import UTC, datetime, timedelta
 

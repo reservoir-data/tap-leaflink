@@ -1,4 +1,4 @@
-"""LeafLink tap class."""
+"""LeafLink tap class."""  # ruff:ignore[missing-copyright-notice]
 
 from __future__ import annotations
 

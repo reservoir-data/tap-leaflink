@@ -1,4 +1,4 @@
-"""Test schema evolution."""
+"""Test schema evolution."""  # ruff:ignore[missing-copyright-notice]
 
 from __future__ import annotations
 

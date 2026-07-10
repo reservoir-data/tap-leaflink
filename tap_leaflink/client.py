@@ -1,4 +1,4 @@
-"""REST client handling, including LeafLinkStream base class."""
+"""REST client handling, including LeafLinkStream base class."""  # ruff:ignore[missing-copyright-notice]
 
 from __future__ import annotations
 

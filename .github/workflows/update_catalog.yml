@@ -64,4 +64,5 @@ jobs:
         commit-message: 'fix: Update OpenAPI spec'
         branch: update-openapi-spec
         delete-branch: true
+        token: ${{ steps.generate-token.outputs.token }}
         signoff: true

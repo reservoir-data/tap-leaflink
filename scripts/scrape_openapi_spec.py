@@ -1,4 +1,4 @@
-"""Scrape the LeafLink OpenAPI spec."""  # noqa: INP001
+"""Scrape the LeafLink OpenAPI spec."""  # noqa: INP001  # ruff:ignore[missing-copyright-notice]
 
 import json
 import re
@@ -53,6 +53,9 @@ def download_openapi_spec(url: str, output_path: Path) -> None:
     Args:
         url: URL to the documentation page
         output_path: Path to save the downloaded spec
+
+    Raises:
+        RuntimeError: If the OpenAPI extraction failed.
     """
     rich.print(f"Downloading page from {url}")
     response = requests.get(url, timeout=30)
@@ -62,7 +65,7 @@ def download_openapi_spec(url: str, output_path: Path) -> None:
     spec = extract_openapi_spec_from_html(response.text)
 
     if spec:
-        output_path.write_text(json.dumps(spec, indent=2) + "\n")
+        output_path.write_text(json.dumps(spec, indent=2) + "\n", encoding="utf-8")
         rich.print(f"[green]✓[/green] Successfully downloaded to {output_path}")
 
         # Print some basic info about the spec
