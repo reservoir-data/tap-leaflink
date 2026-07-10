@@ -43,6 +43,9 @@ jobs:
     - name: Run OpenAPI spec scraper
       run: uv run --group scrape python scripts/scrape_openapi_spec.py
 
+    - name: Update snapshots
+      run: uv run pytest --snapshot-update tests/test_schema_evolution.py
+
     - name: Check Snapshot changes
       id: check_snapshot_changes
       continue-on-error: true
