@@ -1,4 +1,4 @@
-"""Scrape the LeafLink OpenAPI spec."""  # noqa: INP001  # ruff:ignore[missing-copyright-notice]
+"""Scrape the LeafLink OpenAPI spec."""  # ruff: ignore[implicit-namespace-package]  # ruff:ignore[missing-copyright-notice]
 
 import json
 import re
