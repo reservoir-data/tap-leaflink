@@ -15,16 +15,16 @@ keywords = [
 ]
 license = "Apache-2.0"
 license-files = [ "LICENSE" ]
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
   "Programming Language :: Python :: 3.15",
+  "Programming Language :: Python :: 3.16",
 ]
 dependencies = [
   "requests~=2.34.2",
@@ -61,25 +61,28 @@ typing = [
   "ty>=0.0.50",
 ]
 
-[tool.ruff]
+[tool.uv]
 required-version = ">=0.13"
+
+[tool.ruff]
+required-version = ">=0.17"
 line-length = 100
 preview = true
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [ "assert" ]
+[tool.ruff.lint.flake8-annotations]
+allow-star-arg-any = true
+[tool.ruff.lint.pydocstyle]
+convention = "google"
 [tool.ruff.lint]
-future-annotations = true
+select = [ "ALL" ]
 ignore = [
   "missing-trailing-comma",
 ]
-select = [ "ALL" ]
-[tool.ruff.lint.flake8-annotations]
-allow-star-arg-any = true
-[tool.ruff.lint.per-file-ignores]
-"tests/**/*.py" = [ "assert" ]
-[tool.ruff.lint.pydocstyle]
-convention = "google"
+future-annotations = true
 
 [tool.pyproject-fmt]
-max_supported_python = "3.15"
+max_supported_python = "3.16"
 table_format = "long"
 
 [tool.typos.files]
